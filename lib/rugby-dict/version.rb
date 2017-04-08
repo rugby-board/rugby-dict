@@ -1,3 +1,3 @@
-module Rugbydict
+module RugbyDict
   VERSION = "1.0.0".freeze
 end

@@ -1,11 +1,11 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'rugbydict/version'
+require 'rugby-dict/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "rugby-dict"
-  spec.version       = Rugbydict::VERSION
+  spec.version       = RugbyDict::VERSION
   spec.authors       = ["David Zhang"]
   spec.email         = ["crispgm@gmail.com"]
   spec.summary       = "Dictionary mapping translation for rugby union words"

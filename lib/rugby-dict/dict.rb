@@ -1,4 +1,4 @@
-module Rugbydict
+module RugbyDict
   class Dict
     attr_reader :dict
     attr_reader :dict_hash
@@ -14,7 +14,7 @@ module Rugbydict
     class << self
       def from_yaml
         require "yaml"
-        dict = YAML.load_file("#{Dir.pwd}/lib/rugbydict/dict.yml")
+        dict = YAML.load_file("#{Dir.pwd}/lib/rugby-dict/dict.yml")
         new(dict)
       end
     end
