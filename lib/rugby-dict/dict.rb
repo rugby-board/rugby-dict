@@ -14,7 +14,9 @@ module RugbyDict
     class << self
       def from_yaml
         require "yaml"
-        dict = YAML.load_file("./lib/rugby-dict/dict.yml")
+        lib = File.expand_path('..', __FILE__)
+        p lib
+        dict = YAML.load_file("#{lib}/dict.yml")
         new(dict)
       end
     end
