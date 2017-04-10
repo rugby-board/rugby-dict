@@ -50,9 +50,7 @@ module RugbyDict
       if @dict_hash.key?(full_word)
         @dict_hash[full_word]
       else
-        input.permutate.each do |item|
-          query_dict(item)
-        end
+        nil
       end
     end
 
