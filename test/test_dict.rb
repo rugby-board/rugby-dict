@@ -19,10 +19,22 @@ class TestDict < Minitest::Test
       assert_equal(["Friday"], names[4])
     end
 
+    should "do word segment with numbers" do
+      sentence = "Racing 92"
+      names = RugbyDict::Dict.segment(sentence)
+      assert_equal(["Racing"], names[0])
+    end
+
     should "find full word" do
       dict = RugbyDict::Dict.from_yaml
       result = dict.query_dict(["Rugby", "World", "Cup"])
       assert_equal("橄榄球世界杯", result)
+    end
+
+    should "find word with numbers" do
+      dict = RugbyDict::Dict.from_yaml
+      result = dict.query_dict(["Racing", "92"])
+      assert_equal("竞技92", result)
     end
   end
 end
