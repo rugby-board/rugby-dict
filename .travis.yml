@@ -5,3 +5,5 @@ env:
   - CODECLIMATE_REPO_TOKEN: a72fb093b81841af1dff0442d80766b069383bae1c40b5a369a3856d25b50e3a
 after_success:
   - bundle exec codeclimate-test-reporter
+notifications:
+  slack: navyblue-team:ioO5diAGc5WUQVDKc5BH1UbE
