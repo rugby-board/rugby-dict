@@ -1,8 +1,8 @@
 # rugby-dict
 
-[![](https://api.travis-ci.org/dripcoffee/rugby-dict.svg)](https://travis-ci.org/dripcoffee/rugby-dict)
-[![Code Climate](https://codeclimate.com/github/dripcoffee/rugby-dict/badges/gpa.svg)](https://codeclimate.com/github/dripcoffee/rugby-dict)
-[![Test Coverage](https://codeclimate.com/github/dripcoffee/rugby-dict/badges/coverage.svg)](https://codeclimate.com/github/dripcoffee/rugby-dict/coverage)
+[![](https://api.travis-ci.org/rugby-board/rugby-dict.svg)](https://travis-ci.org/rugby-board/rugby-dict)
+[![Code Climate](https://codeclimate.com/github/rugby-board/rugby-dict/badges/gpa.svg)](https://codeclimate.com/github/rugby-board/rugby-dict)
+[![Test Coverage](https://codeclimate.com/github/rugby-board/rugby-dict/badges/coverage.svg)](https://codeclimate.com/github/rugby-board/rugby-dict/coverage)
 
 Dictionary mapping translation for rugby union words.
 
