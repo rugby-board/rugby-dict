@@ -212,6 +212,10 @@
   t: "自由州猎豹"
 - w: "Southern Kings"
   t: "南部国王"
+- w: "Pumas"
+  t: "美洲豹"
+- w: "Griquas"
+  t: "格里夸人"
 # People
 - w: "Morné Steyn"
   t: "莫内·斯特恩"
