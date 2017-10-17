@@ -286,6 +286,13 @@
   t: "昆士兰乡村"
 - w: "Fijian Drua"
   t: "斐济德鲁阿"
+# European Challenge Cup
+- w: "Krasny Yar"
+  t: "克拉斯诺亚尔"
+- w: "Enisei"
+  t: "叶尼塞"
+- w: "Enisei-STM"
+  t: "叶尼塞"
 # People
 - w: "Morné Steyn"
   t: "莫内·斯特恩"
